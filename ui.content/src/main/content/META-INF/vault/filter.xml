@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/globalCuisine" mode="merge"/>
+    <filter root="/content/globalCuisine" mode="merge"/>
+    <filter root="/content/dam/globalCuisine" mode="merge">
+        <exclude pattern="/content/dam/globalCuisine(/.*)?"/>
+        <include pattern="/content/dam/globalCuisine/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/globalCuisine/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/globalCuisine" mode="merge"/>
+</workspaceFilter>
